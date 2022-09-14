@@ -40,7 +40,36 @@ ul{
 
 .placeholder{
     background-color: #e5e7eb;
-    text-align: center;
-    vertical-align: middle;
-    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.hero p{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero .placeholder p{
+    color: black;
+    font-size: 18px;
+}
+
+button{
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
 }
